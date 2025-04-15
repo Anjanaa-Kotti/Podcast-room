@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+}
+.navbar {
+    background-color: green; /* dark purple-like color */
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 100vw;
+  }
+  
+  .navbar-container {
+    /* width: 1380px; */
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .sign-in-button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #1e1e2f;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 90px;
+    height:50px;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #FF2D55;
+  }
+  
